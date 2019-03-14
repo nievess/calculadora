@@ -1,8 +1,10 @@
-export function leticia(a=5,b=5){
-    return a+b;
+export function leticia(numero){
+    return numero+numero;
 }
 
 
-export function leticia2(a=5,b=5){
-    return a-b;
+
+
+export function leticia2(numero){
+    return numero-numero;
 }
