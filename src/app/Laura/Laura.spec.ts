@@ -1,10 +1,10 @@
-import { getOperacion } from './getOperacion';
+import { Operacion } from './getOperacion';
 import { getOperacion2 } from './getOperacion';
 
 
-describe ('getOperacion', () => {
+describe ('Operacion', () => {
     it ('Should return 125 if input is 5*5*5', () => {
-        const result = getOperacion(5);
+        const result = Operacion(5);
         expect(result).toBe(125);
        
     } );
