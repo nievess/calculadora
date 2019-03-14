@@ -1,17 +1,10 @@
-import {leticia,leticia2} from './Leticia'
-
-describe ('leticia',()=> {
-    const result=leticia;
-    expect (result).toBe(25);
-})
+import {leticia} from './Leticia';
 
 
-
-
-
-
-
-describe ('leticia2',()=> {
-    const result=leticia;
-    expect (result).toBe(25);
-})
+describe ('leticia', () => {
+    it ('Should return 125 if input is 5+5', () => {
+        const result = leticia(5);
+        expect(result).toBe(125);
+       
+    } );
+});
