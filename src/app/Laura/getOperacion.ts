@@ -1,5 +1,5 @@
 
-export function getOperacion(numero){
+export function Operacion(numero){
     return numero * numero * numero;
 }
 export function getOperacion2(num1, num2){
