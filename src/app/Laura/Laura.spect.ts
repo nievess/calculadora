@@ -14,7 +14,7 @@ describe ('getOperacion', () => {
 
 describe ('getOperacion2', () => {
     it ('Should return 16 if input is 100', () => {
-       const result = getOperacion2(10);
+       const result = getOperacion2(100);
         expect(result).toBe(16);
        
     } );
