@@ -1,8 +1,8 @@
-export function nieves (a=5,b=5) {
+export function nieves (a,b) {
     return a*b;
 }
 
-export function nieves2 (a=5,b=5) {
+export function nieves2 (a,b) {
     return a/b;
 }
 
