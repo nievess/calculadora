@@ -13,9 +13,9 @@ describe ('leticia', () => {
 
 
 describe ('leticia2', () => {
-    it ('Should return 5 if input is 10-5', () => {
-        const result = leticia(5);
-        expect(result).toBe(5);
+    it ('Should return 0 if input is 5-5', () => {
+        const result = leticia2(5);
+        expect(result).toBe(0);
        
     } );
 });
