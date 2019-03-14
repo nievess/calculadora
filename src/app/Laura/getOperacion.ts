@@ -1,4 +1,4 @@
 
 export function getOperacion(numero){
-    return numero
+    return numero * numero * numero;
 }
